@@ -24,8 +24,8 @@ import logging
 logging.captureWarnings(capture=True) # Redirect warnings to the logs
 
 # Import geodataframes (gdfs)
-cities_DIR = 'C:/Users/joshu/OneDrive - The University of South Dakota/2021 Fall Coursework/Data Mining/Programming Projects/Programming Project 2/cities/citiesx010g.shp'
-counties_DIR = 'C:/Users/joshu/OneDrive - The University of South Dakota/2021 Fall Coursework/Data Mining/Programming Projects/Programming Project 2/cb_2018_us_county_500k/cb_2018_us_county_500k.shp'
+cities_DIR =   # Insert location of cities .shp file
+counties_DIR = # Insert location of counties .shp file
 cities_gdf = gpd.read_file( cities_DIR )
 counties_gdf = gpd.read_file( counties_DIR )
 
